@@ -23,7 +23,7 @@ void starSquare(int n) {
 int main() {
     int side;
 
-    cout << "Enter side : ";
+    cout << "Enter side length : ";
     cin >> side;
 
 
