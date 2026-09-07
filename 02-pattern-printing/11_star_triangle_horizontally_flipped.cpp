@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-void starTriangleHorizontallyFilpped(int n) {
+void starTriangleHorizontallyFlipped(int n) {
     for (int i = 0; i < n; i++) {
         for (int j = n - i; j >= 1; j--) {
             cout << "* ";
@@ -27,7 +27,7 @@ int main() {
     cin >> row;
 
 
-    starTriangleHorizontallyFilpped(row);
+    starTriangleHorizontallyFlipped(row);
 
     return 0;
 }
