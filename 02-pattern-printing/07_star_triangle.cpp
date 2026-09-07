@@ -21,7 +21,7 @@ void starTriangle(int row) {
 
 
 int main() {
-    int row, column;
+    int row;
 
     cout << "Enter row : ";
     cin >> row;
